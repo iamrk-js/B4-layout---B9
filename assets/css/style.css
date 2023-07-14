@@ -86,6 +86,25 @@
     object-fit: cover;
 }
 
+
+/* about us css  */
+#tmSlider .owl-nav {
+    position: absolute;
+    top: 25%;
+    left: -3%;
+    width: 106%;
+    display: flex;
+    justify-content: space-between;
+}
+#tmSlider .item{
+    text-align: justify;
+}
+#tmSlider .item img{
+    width: 80% !important;
+    margin: 0 auto 10px;   
+    border-radius: 50%;
+    border: 3px solid #fff; 
+}
 .footer{
     background-color: #000;
     color: #fff;
